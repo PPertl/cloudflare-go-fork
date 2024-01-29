@@ -33,6 +33,7 @@ type Image struct {
 	RequireSignedURLs bool                   `json:"requireSignedURLs"`
 	Variants          []string               `json:"variants"`
 	Uploaded          time.Time              `json:"uploaded"`
+	Draft             bool                   `json:"draft"`
 }
 
 // UploadImageParams is the data required for an Image Upload request.
