@@ -1,4 +1,4 @@
-module github.com/cloudflare/cloudflare-go
+module github.com/PPertl/cloudflare-go-fork
 
 go 1.19
 
